@@ -62,7 +62,6 @@ namespace Tic_Tac_Toe
             Console.Clear();// clearing the console
             Board();
             if (scoreCount == 1)
-            
             {
                 if(userName == 1){
                     Console.Clear();
@@ -72,11 +71,7 @@ namespace Tic_Tac_Toe
                     Console.WriteLine($"{userNameSelection1} wins!");
                 }
             }
-            // {   
-            //     Console.Clear();
-            //     Console.WriteLine("user {0} has won", (user % 2) + 1);
-            // }
-            else// if scoreCount value is -1 the match will be draw and no one is winner
+            else
             {
                 Console.Clear();
                 Console.WriteLine("Draw");
