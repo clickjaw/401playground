@@ -10,7 +10,7 @@ namespace Tic_Tac_Toe
    
         static int scoreCount = 0;
         static void Main(string[] args)
-        {
+        {   Console.Clear();
             Console.WriteLine("Enter name user1: ");
             string userNameSelection1 = Console.ReadLine();
             Console.WriteLine("Enter name user2: ");
@@ -38,14 +38,14 @@ namespace Tic_Tac_Toe
                 //if arr[userName] == both X&O then it returns a "sorry"
                 if (arr[userName] != 'X' && arr[userName] != 'O')
                 {
-                    if (user % 2 == 0) //marks O
+                    if (user % 2 == 0) 
                     {
                         arr[userName] = 'O';
                         user++;
                     }
                     else
                     {
-                        arr[userName] = 'X'; //marks X
+                        arr[userName] = 'X'; 
                         user++;
                     }
                 }
@@ -95,7 +95,7 @@ namespace Tic_Tac_Toe
 
         private static int win()
         {
-            #region Horzontal Win
+            // Horzontal Win
             if (arr[1] == arr[2] && arr[2] == arr[3])
             {
                 return 1;
@@ -108,8 +108,7 @@ namespace Tic_Tac_Toe
             {
                 return 1;
             }
-            #endregion
-            #region vertical Win
+            // vertical Win
             else if (arr[1] == arr[4] && arr[4] == arr[7])
             {
                 return 1;
@@ -122,8 +121,7 @@ namespace Tic_Tac_Toe
             {
                 return 1;
             }
-            #endregion
-            #region Diagonal Win
+            // Diagonal Win
             else if (arr[1] == arr[5] && arr[5] == arr[9])
             {
                 return 1;
@@ -132,13 +130,11 @@ namespace Tic_Tac_Toe
             {
                 return 1;
             }
-            #endregion
-            #region Draw
+            // Draw
             else if (arr[1] != '1' && arr[2] != '2' && arr[3] != '3' && arr[4] != '4' && arr[5] != '5' && arr[6] != '6' && arr[7] != '7' && arr[8] != '8' && arr[9] != '9')
             {
                 return -1;
             }
-            #endregion
             else
             {
                 return 0;
