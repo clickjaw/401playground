@@ -1,0 +1,15 @@
+/Users/tylermorgan/code401/401playground/myPlayground/bin/Debug/net6.0/myPlayground
+/Users/tylermorgan/code401/401playground/myPlayground/bin/Debug/net6.0/myPlayground.deps.json
+/Users/tylermorgan/code401/401playground/myPlayground/bin/Debug/net6.0/myPlayground.runtimeconfig.json
+/Users/tylermorgan/code401/401playground/myPlayground/bin/Debug/net6.0/myPlayground.dll
+/Users/tylermorgan/code401/401playground/myPlayground/bin/Debug/net6.0/myPlayground.pdb
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.csproj.AssemblyReference.cache
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.AssemblyInfoInputs.cache
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.AssemblyInfo.cs
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.csproj.CoreCompileInputs.cache
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.dll
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/refint/myPlayground.dll
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.pdb
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/myPlayground.genruntimeconfig.cache
+/Users/tylermorgan/code401/401playground/myPlayground/obj/Debug/net6.0/ref/myPlayground.dll
