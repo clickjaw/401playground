@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tylermorgan/code401/401playground/myPlayground/myPlayground.csproj",
+      "projectUniqueName": "/Users/tylermorgan/Code/Code401/401playground/myPlayground/myPlayground.csproj",
       "projectName": "myPlayground",
-      "projectPath": "/Users/tylermorgan/code401/401playground/myPlayground/myPlayground.csproj",
+      "projectPath": "/Users/tylermorgan/Code/Code401/401playground/myPlayground/myPlayground.csproj",
       "packagesPath": "/Users/tylermorgan/.nuget/packages/",
-      "outputPath": "/Users/tylermorgan/code401/401playground/myPlayground/obj/",
+      "outputPath": "/Users/tylermorgan/Code/Code401/401playground/myPlayground/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tylermorgan/.nuget/NuGet/NuGet.Config"
