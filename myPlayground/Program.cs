@@ -1,61 +1,60 @@
 ﻿using System;
 
-namespace Project
-{
+namespace Family{
 
-    class Person
-    {
-        private string _firstName;
-        private string _lastName;
+    class Children{
+        public string name;
+        public int age;
 
+        public string hairColor;
 
-        private int _age;
-
-        public Person(string firstName, string lastName, int age)
-        {
-            _firstName = firstName;
-            _lastName = lastName;
-            _age = age;
+        public void Intro(){
+            Console.WriteLine(name + " is " + age + " years old.");
         }
 
+        public Children(string name, int age, string hairColor){
+            this.name = name;
+            this.age = age;
+            this.hairColor = hairColor;
+        }
+    }//children
+
+    class Wife{
+        public string name;
+        public int age;
+
+        public bool beautiful;
+
+        public void Intro(){
+            Console.WriteLine(name + " is my wife.");
+        }
+        public Wife(string name, int age, bool beautiful){
+            this.name = name;
+            this.age = age;
+            this.beautiful = beautiful;
+        }
+    }
 
 
-        public void SetName()
-        {
-            Console.WriteLine($"{_firstName} {_lastName}: age {_age} - created.");
+    class Program{
+
+        static void Main(string[] args){
+
+            Console.Clear();
+
+            Children Waylon = new Children("Waylon", 4, "blonde");
+            Children Fletcher = new Children("Fletcher", 0, "brunette");
+
+            Wife Hillary = new Wife("Hillary", 31, true);
+
+            Waylon.Intro();
+            Fletcher.Intro();
+
+            Hillary.Intro();
+
+
         }
 
 
     }
-
-    class Car
-    {
-
-        private string _model;
-        private string _make;
-        public Car(string model, string make)
-        {
-            _model = model;
-            _make = make;
-        }
-        public void CallCar()
-        {
-            Console.WriteLine($"His car is a {_model} {_make}.");
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Preparing to make a person.");
-
-            Person tyler = new Person("Tyler", "Morgan", 33);
-            Car myCar = new Car("Honda", "Fit");
-
-            tyler.SetName();
-            myCar.CallCar();
-
-
-        }//main
-    }//program
-}//namespace
+}
